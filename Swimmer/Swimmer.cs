@@ -8,10 +8,25 @@ namespace Swimmer
 {
     class Swimmer
     {
-        public string name = "string";
+        private string name;
         private BathingSuit suit;
+        public Swimmer(string name)
+        {
 
-        
+        }
+        public Swimmer(string name, BathingSuit suit)
+        {
+
+        }
+        public virtual void SetSuit(BathingSuit bathingSuit)
+        {
+            suit = bathingSuit;
+        }
+
+        public virtual void Swim() 
+        {
+            Console.WriteLine("Splish Splash - it's so fun in the bath");
+        }
 
     }
 }
