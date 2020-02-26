@@ -16,6 +16,7 @@ namespace Swimmer
         {
 
         }
+        //Makes professionalSwimmer to have a bathingsuit
        public override void SetSuit(BathingSuit bathingSuit)
         {
             if(bathingSuit != null) 

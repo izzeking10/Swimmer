@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Swimmer
 {
+    //adds the Youngswimmer class
     class YoungSwimmer:Swimmer
     {
         private Boolean tired = false;
@@ -22,6 +23,7 @@ namespace Swimmer
         {   
            base.SetSuit(bathingSuit);   
         }
+        //makes youngswimmer swim and makes them tired and if swimming twice then they say that they are tired
        public override void Swim()
         {
             if (tired == false)
